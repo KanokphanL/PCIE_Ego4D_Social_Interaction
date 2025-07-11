@@ -1,2 +1,16 @@
 # PCIE_Ego4D_Social_Interaction
-# PCIE_Ego4D_Social_Interaction
+
+This repo presents our team's PCIE_Interaction solution for the Ego4D Social Interaction Challenge at CVPR 2025, addressing both Looking At Me (LAM) and Talking To Me (TTM) tasks. The challenge requires accurate detection of social interactions between subjects and the camera wearer, with LAM relying exclusively on face crop sequences and TTM combining speaker face crops with synchronized audio segments. In the LAM track, we employ face quality enhancement and ensemble methods. For the TTM task, we extend visual interaction analysis by fusing audio and visual cues, weighted by a visual quality score. Our approach achieved a mean average precision (mAP) of 0.81 and 0.71 on the LAM and TTM challenge leaderboards.
+
+Our approach for social interaction analysis extends the LAM to the TTM task by employing separate models for visual and audio modalities. Based on the dataset characteristics, we introduce visual and audio filters before fusing the scores from both models, yielding a robust final interaction score for TTM.
+
+
+## Citation
+```
+@article{Lertniphonphan2025PCIE\_InteractionSF,
+  title={PCIE\_Interaction Solution for Ego4D Social Interaction Challenge},
+  author={Kanokphan Lertniphonphan and Feng Chen and Junda Xu and Fengbu Lan and Jun Xie and Tao Zhang and Zhepeng Wang},
+  journal={ArXiv},
+  year={2025},
+}
+```
