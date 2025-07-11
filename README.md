@@ -14,3 +14,7 @@ Our approach for social interaction analysis extends the LAM to the TTM task by 
   year={2025},
 }
 ```
+
+## References
+Our LAM is based on Ego4d Social Benchmark ([GitHub repo](https://github.com/EGO4D/social-interactions/tree/lam)).
+For audio processing, we follow Ego4D-QuAVF-TTM-CVPR23 [GitHub repo](https://github.com/hsi-che-lin/Ego4D-QuAVF-TTM-CVPR23/tree/b6a866f8dcaf07d8fd5af800d2ca1c3e4fec544c).
