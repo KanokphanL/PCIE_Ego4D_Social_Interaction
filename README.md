@@ -6,7 +6,7 @@ Our approach for social interaction analysis extends the LAM to the TTM task by 
 
 # Looking At Me
 
-Please follow the repository ([GitHub repo](https://github.com/EGO4D/social-interactions/tree/lam)) for Data preparation and generating baseline models.
+Please refer to the GitHub repository ([GitHub repo](https://github.com/EGO4D/social-interactions/tree/lam)) for instructions on data preparation and baseline model generation.
 
 Run the following script to perform inference on the 'Talking to Me' face crop test dataset:
 ```bash
