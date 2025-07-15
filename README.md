@@ -4,6 +4,15 @@ This repo presents our team's PCIE_Interaction solution for the Ego4D Social Int
 
 Our approach for social interaction analysis extends the LAM to the TTM task by employing separate models for visual and audio modalities. Based on the dataset characteristics, we introduce visual and audio filters before fusing the scores from both models, yielding a robust final interaction score for TTM.
 
+# Looking At Me
+
+Please refer to the GitHub repository ([GitHub repo](https://github.com/hsi-che-lin/Ego4D-QuAVF-TTM-CVPR23/tree/b6a866f8dcaf07d8fd5af800d2ca1c3e4fec544c) for instructions on data preparation and training an audio model.
+
+Run the following script to perform inference on the 'Talking to Me' audio test dataset:
+```bash
+python run.py --eval --checkpoint ${checkpoint_path} --exp_path ${eval_output_dir} --infer --test_path ${test_dataset_path}
+```
+
 
 ## Citation
 ```
