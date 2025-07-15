@@ -8,11 +8,17 @@ Our approach for social interaction analysis extends the LAM to the TTM task by 
 
 Please refer to the GitHub repository ([GitHub repo](https://github.com/EGO4D/social-interactions/tree/lam)) for instructions on data preparation and baseline model generation.
 
-Run the following script to perform inference on the 'Talking to Me' face crop test dataset:
+Run the following script to perform inference on the face crop test dataset:
 ```bash
 python run.py --eval --checkpoint ${checkpoint_path} --exp_path ${eval_output_dir} --infer --test_path ${test_dataset_path}
 ```
 The results of Looking at Me will be in .csv format
+
+
+Run the following script to generate results for the Talking to me task on the .csv file: 
+```bash
+python csv2json_ttm.py --input ${lam_results.csv} --output ${ouput.json} 
+```
 
 ## Citation 
 ```
