@@ -19,4 +19,4 @@ Talking to me: [GitHub repo](https://github.com/KanokphanL/PCIE_Ego4D_Social_Int
 
 ## References
 Our LAM is based on Ego4d Social Benchmark ([GitHub repo](https://github.com/EGO4D/social-interactions/tree/lam)).
-For audio processing, we follow Ego4D-QuAVF-TTM-CVPR23 [GitHub repo](https://github.com/hsi-che-lin/Ego4D-QuAVF-TTM-CVPR23/tree/b6a866f8dcaf07d8fd5af800d2ca1c3e4fec544c).
+For audio processing, we follow Ego4D-QuAVF-TTM-CVPR23 [GitHub repo](https://github.com/hsi-che-lin/Ego4D-QuAVF-TTM-CVPR23/tree/b6a866f8dcaf07d8fd5af800d2ca1c3e4fec544c) method to generate audio prediction results and fuse the results based on face quality.
