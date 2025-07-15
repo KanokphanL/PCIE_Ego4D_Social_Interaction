@@ -4,6 +4,8 @@ This repo presents our team's PCIE_Interaction solution for the Ego4D Social Int
 
 Our approach for social interaction analysis extends the LAM to the TTM task by employing separate models for visual and audio modalities. Based on the dataset characteristics, we introduce visual and audio filters before fusing the scores from both models, yielding a robust final interaction score for TTM.
 
+Looking at me: [GitHub repo](https://github.com/KanokphanL/PCIE_Ego4D_Social_Interaction/tree/lam)
+Talking to me: [GitHub repo](https://github.com/KanokphanL/PCIE_Ego4D_Social_Interaction/tree/ttm)
 
 ## Citation
 ```
